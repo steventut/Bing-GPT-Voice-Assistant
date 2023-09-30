@@ -1,6 +1,6 @@
 from os import system
 #from EdgeGPT.EdgeUtils import Query
-from EdgeGPT import Query
+#from EdgeGPT import Query
 import speech_recognition as sr
 import sys, whisper, warnings, time, openai
 
@@ -16,7 +16,8 @@ r = sr.Recognizer()
 tiny_model = whisper.load_model('tiny')
 base_model = whisper.load_model('base')
 listening_for_wake_word = True
-bing_engine = True
+#bing_engine = True
+bing_engine = False
 source = sr.Microphone() 
 warnings.filterwarnings("ignore", category=UserWarning, module='whisper.transcribe', lineno=114)
 
