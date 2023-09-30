@@ -1,5 +1,6 @@
 from os import system
-from EdgeGPT.EdgeUtils import Query
+#from EdgeGPT.EdgeUtils import Query
+from EdgeGPT import Query
 import speech_recognition as sr
 import sys, whisper, warnings, time, openai
 
