@@ -65,7 +65,7 @@ def prompt_bing(audio):
             listening_for_wake_word = True
         else:
             print('User: ' + prompt_text)
-            output = Query(prompt_text)
+            ##output = Query(prompt_text)
             print('Bing: ' + str(output))
             speak(str(output))
             print('\nSay Ok Bing or Ok GPT to wake me up. \n')
